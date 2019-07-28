@@ -4,7 +4,7 @@
 
 #### Code
 
-[Network Project.ipynb](./Network Project.ipynb) - Main program to find influential users
+[Network Project.ipynb](./Network_Project.ipynb) - Main program to find influential users
 
 [net_Analyze.py](./net_Analyze.py) - Preliminary: Analyze the property of social networks
 
