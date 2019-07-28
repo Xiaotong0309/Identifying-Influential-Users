@@ -4,13 +4,13 @@
 
 #### Code
 
-[Network Project.ipynb](./Network Project.ipynb) - Main program to find influential users
+[Network Project.ipynb](../Network Project.ipynb) - Main program to find influential users
 [net_Analyze.py](./net_Analyze.py) - Preliminary: Analyze the property of social networks
-[webweb Test.ipynb](webweb Test.ipynb) - Draw graph of social networks
+[webweb Test.ipynb](./webweb Test.ipynb) - Draw graph of social networks
 
 #### Report
 
-[Diao Xiaotong & Dong Ziyuan report.pdf](Diao Xiaotong & Dong Ziyuan report.pdf)
+[Diao Xiaotong & Dong Ziyuan report.pdf](./Diao Xiaotong & Dong Ziyuan report.pdf)
 
 The other files are the experiment results and dataset
 
@@ -28,7 +28,7 @@ Closeness_centrality
 Pagerank
 Coreness_centrality
 
-Please check [Diao Xiaotong & Dong Ziyuan report.pdf](Diao Xiaotong & Dong Ziyuan report.pdf) for detailed information
+Please check [Diao Xiaotong & Dong Ziyuan report.pdf](./Diao Xiaotong & Dong Ziyuan report.pdf) for detailed information
 
 We found that Generalized_degree_discount is the best one for identifying influential user
 
