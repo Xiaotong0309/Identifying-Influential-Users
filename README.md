@@ -1,4 +1,50 @@
-# Identifying-most-Influential-Spreaders
-Tested and analyzed 9 algorithms for identifying influential spreaders in social networks
+# Identifying Influential Uers in Social Networks
 
-Three code files: Network Project.ipynb / net_Analyze.py / webweb Test.ipynb The other files are the experiment results and dataset
+### File organization:
+
+#### Code
+
+[Network Project.ipynb](./Network Project.ipynb) - Main program to find influential users
+[net_Analyze.py](./net_Analyze.py) - Preliminary: Analyze the property of social networks
+[webweb Test.ipynb](webweb Test.ipynb) - Draw graph of social networks
+
+#### Report
+
+[Diao Xiaotong & Dong Ziyuan report.pdf](Diao Xiaotong & Dong Ziyuan report.pdf)
+
+The other files are the experiment results and dataset
+
+### Result
+
+This repo tested 9 degree-based algorithms:
+
+Degree_distance
+Single_discount
+Degree_discount
+Generalized_degree_discount
+Degree_centrality
+Betweenness_centrality
+Closeness_centrality
+Pagerank
+Coreness_centrality
+
+Please check [Diao Xiaotong & Dong Ziyuan report.pdf](Diao Xiaotong & Dong Ziyuan report.pdf) for detailed information
+
+We found that Generalized_degree_discount is the best one for identifying influential user
+
+### How to Use
+
+To use the code as a tool to find influential user, you could
+
+#### 1. Clean the data you have to the same format as [Gnutella p2p.txt](./Gnutella p2p.txt)
+All users must have a unique identifier
+Should have all connection information of all users
+
+#### 2. Update the file name in [Network Project.ipynb](./Network Project.ipynb)
+Use your cleaned data as input
+
+#### 3. Add the following code to show influential users identifier
+```
+print(Generalized_degree_discount(G, p, l))
+```
+
