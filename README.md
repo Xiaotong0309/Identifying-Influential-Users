@@ -4,9 +4,11 @@
 
 #### Code
 
-[Network Project.ipynb](../Network Project.ipynb) - Main program to find influential users
+[Network Project.ipynb](./Network Project.ipynb) - Main program to find influential users
+
 [net_Analyze.py](./net_Analyze.py) - Preliminary: Analyze the property of social networks
-[webweb Test.ipynb](./webweb Test.ipynb) - Draw graph of social networks
+
+[webwebTest.ipynb](./webwebTest.ipynb) - Draw graph of social networks
 
 #### Report
 
@@ -16,17 +18,7 @@ The other files are the experiment results and dataset
 
 ### Result
 
-This repo tested 9 degree-based algorithms:
-
-Degree_distance
-Single_discount
-Degree_discount
-Generalized_degree_discount
-Degree_centrality
-Betweenness_centrality
-Closeness_centrality
-Pagerank
-Coreness_centrality
+This repo tested 9 degree-based algorithms
 
 Please check [Diao Xiaotong & Dong Ziyuan report.pdf](./Diao Xiaotong & Dong Ziyuan report.pdf) for detailed information
 
