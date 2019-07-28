@@ -28,7 +28,7 @@ We found that Generalized_degree_discount is the best one for identifying influe
 
 To use the code as a tool to find influential user, you could
 
-#### 1. Clean the data you have to the same format as [Gnutella p2p.txt](./Gnutella p2p.txt)
+#### 1. Clean the data you have to the same format as Gnutella p2p.txt
 All users must have a unique identifier
 Should have all connection information of all users
 
